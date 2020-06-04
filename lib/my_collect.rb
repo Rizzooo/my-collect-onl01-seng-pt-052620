@@ -3,7 +3,7 @@ def my_collect(languagues)
     i = 0 
     
   collection = []
-  words = languages.split(" ")
+  words = languages.split("")
   # cap_langs = languages.upcase
   while i < languages.length do
     words.upcase
