@@ -3,9 +3,10 @@ def my_collect(languages)
     i = 0 
     
   collection = []
-  words = languages.upcase
-  # cap_langs = languages.upcase
+  words = languages.join
+  words.upcase
   while i < languages.length do
+    words.
   collection << yield(words[i])
   i += 1
   rewind = words.split(" ")
