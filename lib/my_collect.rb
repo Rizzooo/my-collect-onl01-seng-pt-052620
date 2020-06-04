@@ -10,7 +10,7 @@ def my_collect(languages)
     
   collection << yield(words[i])
   i += 1
-  words = languages.split(" ")
+  rewind = words.split(" ")
 end
 collection
   else
