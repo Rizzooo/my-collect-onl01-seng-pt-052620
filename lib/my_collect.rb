@@ -6,7 +6,7 @@ def my_collect(languages)
   words = languages.join
   while i < languages.length do
     words.upcase == almost
-    almost.split
+    "#{almost}".split
   collection << yield(words[i])
   i += 1
   rewind = words.split(" ")
