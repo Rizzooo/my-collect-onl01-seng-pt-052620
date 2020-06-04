@@ -6,8 +6,8 @@ def my_collect(languagues)
   words = languages.split(" ")
   # cap_langs = languages.upcase
   while i < languages.length do
-    
-  collection << yield(languages[i])
+    words.upcase
+  collection << yield(words[i])
   i += 1
 end
 collection
