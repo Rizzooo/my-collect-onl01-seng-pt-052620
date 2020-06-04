@@ -3,8 +3,9 @@ def my_collect(languagues)
     i = 0 
     
   collection = []
+  cap_langs = languages.upcase
   while i < languages.length do
-    puts languagues.upcase
+    puts "#{cap_langs}"
   collection << yield(languages[i])
   i += 1
 end
