@@ -1,4 +1,4 @@
-def my_collect(languagues)
+def my_collect(languages)
   if block_given?
     i = 0 
     
