@@ -4,9 +4,9 @@ def my_collect(languages)
     
   collection = []
   words = languages.join
-  words.upcase
   while i < languages.length do
-    words.
+    words.upcase = almost
+    almost.split("") = final
   collection << yield(words[i])
   i += 1
   rewind = words.split(" ")
